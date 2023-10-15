@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello Rigo with Vanilla.js</title>
+    <link rel="shortcut icon" href="./assets/img/4geeks.ico" />
+    <script
+      src="https://kit.fontawesome.com/072e5df971.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <ul class="filters">
+      <li>
+        <label>Include Cover</label>
+        <select class="picker" for="setIncludeCover">
+          <option value="">Include Cover</option>
+          <option value="true">True</option>
+          <option value="false">False</option>
+        </select>
+      </li>
+      <li>
+        <label>Name</label>
+        <input class="picker" for="setName" type="text" />
+      </li>
+      <li>
+        <label>Last Name</label>
+        <input class="picker" for="setLastName" type="text" />
+      </li>
+      <li>
+        <label>S.M. Position</label>
+        <select class="picker" for="setSocialMediaPosition">
+          <option value="position-left">Left</option>
+          <option value="position-right">Right</option>
+        </select>
+      </li>
+      <li>
+        <label>Twitter</label>
+        <input class="picker" for="setTwitter" type="text" />
+      </li>
+      <li>
+        <label>Github</label>
+        <input class="picker" for="setGithub" type="text" />
+      </li>
+      <li>
+        <label>LinkedIn</label>
+        <input class="picker" for="setLinkedin" type="text" />
+      </li>
+      <li>
+        <label>Instagram</label>
+        <input class="picker" for="setInstagram" type="text" />
+      </li>
+      <li>
+        <label>Role</label>
+        <select class="picker" for="setRole">
+          <option value="">null</option>
+          <option value="Web Developer">Web Developer</option>
+          <option value="Boquerón">Boquerón</option>
+          <option value="Technical Writter">Technical Writter</option>
+        </select>
+      </li>
+      <li>
+        <label>City</label>
+        <select class="picker" for="setCity">
+          <option value="">null</option>
+          <option value="Fuengirola">Fuengirola</option>
+          <option value="Mijas">Mijas</option>
+          <option value="Boliches City">Boliches City</option>
+          <option value="Tejar Rules">Tejar Rules</option>
+        </select>
+      </li>
+      <li>
+        <label>Country</label>
+        <select class="picker" for="setCountry">
+          <option value="">null</option>
+          <option value="Málaga">Málaga</option>
+          <option value="Málaga">Málaga</option>
+          <option value="O Málaga">O Málaga</option>
+          <option value="Tambien puede ser Málaga"
+            >Tambien puede ser Málaga</option
+          >
+        </select>
+      </li>
+    </ul>
+    <div id="widget_content"></div>
+
+    <!-- do not remove this bundle.js tag -->
+    <script type="text/javascript" src="/main.bundle.js"></script>
+  </body>
+</html>
